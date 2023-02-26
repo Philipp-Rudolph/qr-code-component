@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 * {
   margin: 0;
@@ -19,15 +19,14 @@ img {
 
 body {
   font-family: "Outfit", sans-serif;
-  font-size: 15px;
+  font-size: 1rem;
   background-color: var(--light-gray);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - 1px);
-  margin: 1.25rem;
-  overflow: hidden;
+  padding: 1.25rem;
 }
 
 .container {
@@ -47,7 +46,7 @@ body {
   color: var(--dark-blue);
   text-align: center;
   margin-bottom: 1rem;
-  font-size: 20px;
+  font-size: 1.4rem;
 }
 
 .container p {
